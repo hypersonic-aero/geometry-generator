@@ -14,8 +14,8 @@ from pathlib import Path
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
-from canonical_geometries.config.geometry import GeometryConfig
-from canonical_geometries.writers import WRITERS
+from geometry_generator.config.geometry import GeometryConfig
+from geometry_generator.writers import WRITERS
 
 
 # --------------------------------------------------

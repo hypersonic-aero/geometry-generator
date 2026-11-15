@@ -11,9 +11,9 @@ from typing import Annotated
 
 import typer
 
-from canonical_geometries.config import GEOMETRY_TEMPLATES, load_config
-from canonical_geometries.moldline import sample_moldline
-from canonical_geometries.writers import write_moldline
+from geometry_generator.config import GEOMETRY_TEMPLATES, load_config
+from geometry_generator.moldline import sample_moldline
+from geometry_generator.writers import write_moldline
 
 # --------------------------------------------------
 # registry: one command group per geometry type

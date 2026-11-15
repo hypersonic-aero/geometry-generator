@@ -7,8 +7,8 @@ from typing import Annotated
 
 import typer
 
-from canonical_geometries.cli.callbacks import verbose_callback, version_callback
-from canonical_geometries.cli.cmd_geometry import GEOMETRY_HELP, build_geometry_app
+from geometry_generator.cli.callbacks import verbose_callback, version_callback
+from geometry_generator.cli.cmd_geometry import GEOMETRY_HELP, build_geometry_app
 
 # --------------------------------------------------
 # root application

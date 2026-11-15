@@ -7,7 +7,7 @@ import logging
 
 import typer
 
-from canonical_geometries import __version__
+from geometry_generator import __version__
 
 
 # --------------------------------------------------
@@ -17,7 +17,7 @@ def version_callback(value: bool) -> None:
     """Print the installed package version and exit."""
 
     if value:
-        typer.echo(f"canonical-geometries {__version__}")
+        typer.echo(f"geometry-generator {__version__}")
         raise typer.Exit()
 
 
@@ -36,4 +36,4 @@ def verbose_callback(value: bool) -> None:
 
     # debug output from this tool only; the packages it calls keep their levels
     if value:
-        logging.getLogger("canonical_geometries").setLevel(logging.DEBUG)
+        logging.getLogger("geometry_generator").setLevel(logging.DEBUG)

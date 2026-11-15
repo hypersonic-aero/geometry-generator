@@ -10,8 +10,8 @@ from pathlib import Path
 import numpy as np
 import pytest
 
-from canonical_geometries import BluntedWedge, Moldline, sample_moldline, write_moldline
-from canonical_geometries.writers import COLUMN_NAMES, write_csv, write_tecplot_ascii
+from geometry_generator import BluntedWedge, Moldline, sample_moldline, write_moldline
+from geometry_generator.writers import COLUMN_NAMES, write_csv, write_tecplot_ascii
 
 # --------------------------------------------------
 # test case: 7 deg blunted wedge

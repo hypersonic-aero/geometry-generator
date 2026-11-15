@@ -10,8 +10,8 @@ import math
 import numpy as np
 import pytest
 
-import canonical_geometries
-from canonical_geometries import BluntedWedge
+import geometry_generator
+from geometry_generator import BluntedWedge
 
 # --------------------------------------------------
 # test cases: the flat-plate plan's geometry, and a 7 deg wedge / sphere-cone meridian
@@ -43,8 +43,8 @@ def test_package_exposes_version() -> None:
     """Expose package version metadata from the top-level package."""
 
     # validate version attribute
-    assert isinstance(canonical_geometries.__version__, str)
-    assert canonical_geometries.__version__
+    assert isinstance(geometry_generator.__version__, str)
+    assert geometry_generator.__version__
 
 
 # --------------------------------------------------

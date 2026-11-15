@@ -13,8 +13,8 @@ from typing import Annotated, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from canonical_geometries.blunted_tangent_ogive import BluntedTangentOgive
-from canonical_geometries.blunted_wedge import BluntedWedge
+from geometry_generator.blunted_tangent_ogive import BluntedTangentOgive
+from geometry_generator.blunted_wedge import BluntedWedge
 
 
 # --------------------------------------------------

@@ -18,8 +18,8 @@ from pathlib import Path
 
 import numpy as np
 
-from canonical_geometries.moldline import Moldline
-from canonical_geometries.writers.columns import COLUMN_NAMES, moldline_table
+from geometry_generator.moldline import Moldline
+from geometry_generator.writers.columns import COLUMN_NAMES, moldline_table
 
 
 # --------------------------------------------------

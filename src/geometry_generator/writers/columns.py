@@ -8,7 +8,7 @@ from __future__ import annotations
 import numpy as np
 from numpy.typing import NDArray
 
-from canonical_geometries.moldline import Moldline
+from geometry_generator.moldline import Moldline
 
 # --------------------------------------------------
 # constants

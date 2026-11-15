@@ -10,7 +10,7 @@ import math
 import numpy as np
 import pytest
 
-from canonical_geometries import BluntedWedge, sample_moldline
+from geometry_generator import BluntedWedge, sample_moldline
 
 # --------------------------------------------------
 # test case: 7 deg blunted wedge

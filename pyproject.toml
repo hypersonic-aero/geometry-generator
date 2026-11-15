@@ -3,7 +3,7 @@ requires = ["setuptools>=77", "setuptools-scm>=8", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "canonical-geometries"
+name = "geometry-generator"
 dynamic = ["version"]
 description = "Exact 2D profiles of canonical high-speed test geometries (blunted plate, cone, ogive, ...)"
 readme = "README.md"
@@ -31,7 +31,7 @@ dependencies = [
 ]
 
 [project.scripts]
-geometry = "canonical_geometries.cli:app"
+geometry = "geometry_generator.cli:app"
 
 [project.optional-dependencies]
 dev = [
@@ -45,8 +45,8 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/hypersonic-aero/canonical-geometries"
-Repository = "https://github.com/hypersonic-aero/canonical-geometries"
+Homepage = "https://github.com/hypersonic-aero/geometry-generator"
+Repository = "https://github.com/hypersonic-aero/geometry-generator"
 
 [tool.setuptools.packages.find]
 where = ["src"]

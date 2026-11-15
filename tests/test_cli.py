@@ -12,9 +12,9 @@ import numpy as np
 import pytest
 from typer.testing import CliRunner
 
-from canonical_geometries.cli import app
-from canonical_geometries.cli.cmd_geometry import GEOMETRY_HELP
-from canonical_geometries.config import GEOMETRY_TEMPLATES, load_geometry
+from geometry_generator.cli import app
+from geometry_generator.cli.cmd_geometry import GEOMETRY_HELP
+from geometry_generator.config import GEOMETRY_TEMPLATES, load_geometry
 
 runner = CliRunner()
 
@@ -65,7 +65,7 @@ def test_version_flag() -> None:
 
     # check
     assert result.exit_code == 0
-    assert result.output.startswith("canonical-geometries ")
+    assert result.output.startswith("geometry-generator ")
 
 
 # --------------------------------------------------

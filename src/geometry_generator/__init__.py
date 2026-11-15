@@ -1,4 +1,4 @@
-"""Public package interface for canonical_geometries."""
+"""Public package interface for geometry_generator."""
 
 # --------------------------------------------------
 # load necessary modules
@@ -8,17 +8,17 @@ from importlib.metadata import (
     version,
 )
 
-from canonical_geometries.blunted_tangent_ogive import BluntedTangentOgive
-from canonical_geometries.blunted_wedge import BluntedWedge
-from canonical_geometries.moldline import Moldline, sample_moldline
-from canonical_geometries.profile import Profile2D
-from canonical_geometries.writers import write_moldline
+from geometry_generator.blunted_tangent_ogive import BluntedTangentOgive
+from geometry_generator.blunted_wedge import BluntedWedge
+from geometry_generator.moldline import Moldline, sample_moldline
+from geometry_generator.profile import Profile2D
+from geometry_generator.writers import write_moldline
 
 # --------------------------------------------------
 # resolve package version
 # --------------------------------------------------
 try:
-    __version__ = version("canonical-geometries")
+    __version__ = version("geometry-generator")
 except PackageNotFoundError:
     __version__ = "0+unknown"
 

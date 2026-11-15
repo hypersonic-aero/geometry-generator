@@ -1,4 +1,4 @@
-# canonical-geometries
+# geometry-generator
 
 Exact 2D profiles of canonical high-speed test geometries, and a CLI that writes their moldlines.
 

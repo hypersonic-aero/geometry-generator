@@ -16,10 +16,10 @@ from __future__ import annotations
 from collections.abc import Callable
 from pathlib import Path
 
-from canonical_geometries.moldline import Moldline
-from canonical_geometries.writers.columns import COLUMN_NAMES
-from canonical_geometries.writers.csv import write_csv
-from canonical_geometries.writers.tecplot_ascii import write_tecplot_ascii
+from geometry_generator.moldline import Moldline
+from geometry_generator.writers.columns import COLUMN_NAMES
+from geometry_generator.writers.csv import write_csv
+from geometry_generator.writers.tecplot_ascii import write_tecplot_ascii
 
 # --------------------------------------------------
 # registry: file extension -> writer

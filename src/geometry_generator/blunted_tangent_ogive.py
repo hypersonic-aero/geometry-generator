@@ -50,7 +50,7 @@ from dataclasses import dataclass
 import numpy as np
 from numpy.typing import ArrayLike, NDArray
 
-from canonical_geometries.profile import check_arc_length, check_sharp_profile_inputs
+from geometry_generator.profile import check_arc_length, check_sharp_profile_inputs
 
 
 # --------------------------------------------------

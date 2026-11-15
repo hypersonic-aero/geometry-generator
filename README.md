@@ -1,11 +1,11 @@
-# canonical-geometries
+# geometry-generator
 
 Exact 2D profiles of canonical high-speed test geometries, and a CLI that writes their moldlines.
 
-[![Test](https://github.com/hypersonic-aero/canonical-geometries/actions/workflows/test.yml/badge.svg)](https://github.com/hypersonic-aero/canonical-geometries/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/hypersonic-aero/canonical-geometries/branch/main/graph/badge.svg)](https://codecov.io/gh/hypersonic-aero/canonical-geometries)
-[![PyPI](https://img.shields.io/pypi/v/canonical-geometries)](https://pypi.org/project/canonical-geometries/)
-[![Docs](https://img.shields.io/badge/docs-zensical-blue)](https://hypersonic-aero.github.io/canonical-geometries/)
+[![Test](https://github.com/hypersonic-aero/geometry-generator/actions/workflows/test.yml/badge.svg)](https://github.com/hypersonic-aero/geometry-generator/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/hypersonic-aero/geometry-generator/branch/main/graph/badge.svg)](https://codecov.io/gh/hypersonic-aero/geometry-generator)
+[![PyPI](https://img.shields.io/pypi/v/geometry-generator)](https://pypi.org/project/geometry-generator/)
+[![Docs](https://img.shields.io/badge/docs-zensical-blue)](https://hypersonic-aero.github.io/geometry-generator/)
 [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-≥3.11-blue.svg)](https://www.python.org/downloads/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
@@ -13,13 +13,13 @@ Exact 2D profiles of canonical high-speed test geometries, and a CLI that writes
 ## Install
 
 ```bash
-pip install canonical-geometries
+pip install geometry-generator
 ```
 
 To upgrade an existing installation:
 
 ```bash
-pip install --upgrade canonical-geometries
+pip install --upgrade geometry-generator
 ```
 
 ## Quick Start
@@ -27,7 +27,7 @@ pip install --upgrade canonical-geometries
 **API:**
 
 ```python
-from canonical_geometries import BluntedWedge, sample_moldline, write_moldline
+from geometry_generator import BluntedWedge, sample_moldline, write_moldline
 
 # 7 deg sphere-cone meridian; half_angle = 0 (the default) is the blunted flat plate
 cone = BluntedWedge(nose_radius=100e-6, length=0.5, half_angle=7.0)
@@ -60,7 +60,7 @@ body once.
 
 ## Documentation
 
-Full documentation: https://hypersonic-aero.github.io/canonical-geometries
+Full documentation: https://hypersonic-aero.github.io/geometry-generator
 
 ## Testing
 
@@ -94,7 +94,7 @@ This project uses [Semantic Versioning](https://semver.org/) (`vMAJOR.MINOR.PATC
 - **PATCH** (`v0.3.1`, `v0.3.2`): Bug fixes, minor corrections
 
 The version comes from the git tag. To publish a new version to
-[PyPI](https://pypi.org/project/canonical-geometries/):
+[PyPI](https://pypi.org/project/geometry-generator/):
 
 1. Commit and push to `main`
 2. Tag and push:

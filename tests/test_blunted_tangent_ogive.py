@@ -10,7 +10,7 @@ import math
 import numpy as np
 import pytest
 
-from canonical_geometries import BluntedTangentOgive
+from geometry_generator import BluntedTangentOgive
 
 # --------------------------------------------------
 # test cases: a fineness-5 ogive with a 100 micron nose, with and without a cylinder

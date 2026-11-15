@@ -1,5 +1,5 @@
-"""Command-line interface for canonical-geometries."""
+"""Command-line interface for geometry-generator."""
 
-from canonical_geometries.cli.app import app
+from geometry_generator.cli.app import app
 
 __all__ = ["app"]

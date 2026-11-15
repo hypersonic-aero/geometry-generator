@@ -5,13 +5,13 @@ Requires Python 3.11 or newer. The only dependencies are numpy, pydantic and typ
 ## From PyPI
 
 ```bash
-pip install canonical-geometries
+pip install geometry-generator
 ```
 
 To upgrade an existing installation:
 
 ```bash
-pip install --upgrade canonical-geometries
+pip install --upgrade geometry-generator
 ```
 
 ## From source

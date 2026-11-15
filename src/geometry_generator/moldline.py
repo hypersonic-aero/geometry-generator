@@ -1,4 +1,4 @@
-"""Sample a profile into a moldline (writing it to files lives in canonical_geometries.writers)."""
+"""Sample a profile into a moldline (writing it to files lives in geometry_generator.writers)."""
 
 # --------------------------------------------------
 # load necessary modules
@@ -11,7 +11,7 @@ from dataclasses import dataclass
 import numpy as np
 from numpy.typing import NDArray
 
-from canonical_geometries.profile import Profile2D
+from geometry_generator.profile import Profile2D
 
 
 # --------------------------------------------------

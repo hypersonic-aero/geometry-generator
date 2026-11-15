@@ -1,20 +1,20 @@
 """Configuration contracts: the shared [geometry] table, moldline files, starter templates."""
 
-from canonical_geometries.config.geometry import (
+from geometry_generator.config.geometry import (
     ConeConfig,
     GeometryConfig,
     PlateConfig,
     TangentOgiveConfig,
     WedgeConfig,
 )
-from canonical_geometries.config.moldline import (
+from geometry_generator.config.moldline import (
     GeometryFileConfig,
     OutputConfig,
     PointsConfig,
     load_config,
     load_geometry,
 )
-from canonical_geometries.config.templates import GEOMETRY_TEMPLATES
+from geometry_generator.config.templates import GEOMETRY_TEMPLATES
 
 __all__ = [
     "ConeConfig",
